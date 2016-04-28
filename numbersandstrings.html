@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Numbers and Strings</title>
+  </head>
+  <body>
+    <h1>Numbers and Strings</h1>
+    <form>
+      <textarea id="input" maxlength="500" placeholder="Start typing here..." wrap="soft"></textarea>
+      <button type="submit" id="enter">Enter</button>
+      <button type="reset" id="reset">Reset</button>
+    </form>
+    <h2>Your numbers</h2>
+    <table>
+      <tr>
+        <td>Amount of numbers you've entered:</td>
+        <td id="myNumbers"></td>
+      </tr>
+      <tr>
+        <td>Sum of your numbers:</td>
+        <td id="sum"></td>
+      </tr>
+      <tr>
+        <td>Average of your numbers:</td>
+        <td id="avg"></td>
+      </tr>
+    </table>
+    <h2>Your words/phrases</h2>
+    <table>
+      <tr>
+        <td>String:</td>
+        <td id="string"></td>
+      </tr>
+      <tr>
+        <td>Word count:</td>
+        <td id="wordCount"></td>
+      </tr>
+    </table>
+    
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <script src="numbersandstrings.js"></script>
+  </body>
+</html>
